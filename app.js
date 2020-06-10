@@ -22,6 +22,7 @@ var student = {
     }
   
     // Insert result into page
-    var output = "Total Numeric value of person's name is " + student.name.length;
+    var out=student.name.length;
+    var output = "Total Numeric value of person's name is " + out;
     document.getElementById('output').innerText = output;
   }
