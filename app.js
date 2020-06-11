@@ -1,5 +1,5 @@
 //no of letters present in our name
-\var student = {
+var student = {
     name: "",
     type: "student"
   };
@@ -20,11 +20,11 @@
     
     var totalNameValue = 0;
     for (var i = 0; i < student.name.length; i++) {
-      totalNameValue += student.name.charCodeAt(i);
+      totalNameValue += student.name.charCodeAt(i);z
     }
     var vowel=0;
     for(var i=0;i<student.name.length;i++){
-        if(student.name.charAt(i)=='a' || student.name.charAt(i)=='e' || student.name.charAt(i)=='i' || student.name.charAt(i)=='o' || student.name.charAt(i)=='u' ){
+        if(student.name.charAt(i)=='a' ||  student.name.charAt(i)=='e' || student.name.charAt(i)=='i' || student.name.charAt(i)=='o' || student.name.charAt(i)=='u' ){
           vowel=vowel+1;
         }
     }
@@ -33,5 +33,5 @@
     var output = "Total Number of letters " + hey;
     var result="Total number of vowels "+vowel;
     document.getElementById('output').innerText = output;
-    document.getElementById('result').innerText=result;
+    document.getElementByIf('result').innerText = result;
   }
