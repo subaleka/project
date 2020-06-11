@@ -15,7 +15,7 @@ var student = {
   
   function calculateNumericOutput() {
     student.name = document.getElementById('name').value;
-    var output=student.name.length();
+    var output=student.name.length;
     /*var totalNameValue = 0;
     for (var i = 0; i < student.name.length; i++) {
       totalNameValue += student.name.charCodeAt(i);
